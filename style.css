@@ -14,7 +14,7 @@ h1, h2, h3 {
   font-size: 20px;
   line-height: 20px;
   text-align: left;
-  padding-bottom: 20px;
+  padding: 0px 0px 20px 10px;
 }
 
 a {
@@ -27,7 +27,8 @@ a:hover {
 }
 
 .container {
-  margin: 30px 250px;
+  width: 900px;
+  margin: 0 auto;
 }
 
 .card {
@@ -45,12 +46,12 @@ a:hover {
 .list-inline {
   list-style: none;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 50px;
 }
 
 .awesome_icons {
   color: rgb(150, 150, 150);
-  font-size: 45px;
+  font-size: 55px;
 }
 
 .profile_picture {
