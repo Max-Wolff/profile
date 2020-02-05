@@ -1,0 +1,65 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: rgb(245, 245, 245);
+  color: #575F7D;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #2D3A3A;
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+a {
+  color: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  margin: 30px 250px;
+}
+
+.card {
+  margin: 15px;
+  padding: 20px 20px 30px 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+.text-inline {
+  padding: 10px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.awesome_icons {
+  color: rgb(150, 150, 150);
+  font-size: 45px;
+}
+
+.profile_picture {
+  width: 180px;
+  border-radius: 20%;
+  padding: 0px;
+  display: inline-flex;
+  float: right;
+  position: relative;
+  top: -45px;
+  right: 30px;
+}
